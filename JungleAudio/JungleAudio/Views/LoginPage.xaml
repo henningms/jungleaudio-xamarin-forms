@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="JungleAudio.Views.LoginPage"
+    Title="Login">
+
+    <Grid BackgroundColor="{StaticResource AudiojungleSecondaryColor}">
+      <!--       <WebView x:Name="AudioWebView" IsVisible="False" />-->
+      
+        <StackLayout>
+            <Image x:Name="LogoImage"  Source="" Height="250" 
+                   Margin="0,24,0,0"/>
+            
+            <Label x:Name="CreatedByText"  Text="CREATED BY" FontSize="10.667" />
+            <Label Text="HENNING MOSAND STEPHANSEN" FontSize="16" />
+            
+            <Button Text="SIGN IN WITH ENVATO ACCOUNT" 
+                    Margin="0,18" HorizontalOptions="Fill" BackgroundColor="{StaticResource AudiojunglePrimaryColor}" TextColor="White" FontAttributes="Bold" FontSize="18.667" Clicked="Button_OnClicked"/>
+        </StackLayout>
+        
+
+    </Grid>
+</ContentPage>
